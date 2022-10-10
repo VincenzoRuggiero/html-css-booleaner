@@ -1,0 +1,121 @@
+/* ? Sezione Header */
+header {
+  height: 100px;
+  background: url("pattern.png") repeat-x;
+  background-size: 30%;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  height: 50px;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ? Post Principale */
+.center-elements {
+  text-align: center;
+}
+
+.post-title {
+  text-align: center;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 0.2em;
+}
+
+.box-autore {
+  display: block;
+  text-align: center;
+}
+
+.author-info,
+.date {
+  color: #a2a2a2;
+}
+
+.author-info {
+  font-size: 0.9rem;
+}
+
+.date {
+  font-size: 0.7rem;
+}
+
+.author-name {
+  color: #00a8e5;
+  text-decoration: none;
+}
+
+/* Sottolineature */
+.important {
+  background-color: yellow;
+}
+
+.very-important {
+  background-color: #d6e8ff;
+}
+
+/* Gestione tabella */
+table {
+  border-collapse: collapse;
+}
+
+.thead-bgcolor {
+  background-color: #1fa9e5;
+}
+
+.row-height {
+  line-height: 1rem;
+}
+
+.row-title {
+  color: #ffffff;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.title-small {
+  width: 20%;
+}
+.title-big {
+  width: 80%;
+}
+
+.row-color {
+  background-color: #b2e4f2;
+}
+
+/* Sezione footer */
+footer {
+  text-align: center;
+}
+
+h3 {
+  color: #a2a2a2;
+}
+
+.article-box {
+  display: inline-block;
+  width: 40%;
+  height: 150px;
+  background-size: cover;
+}
+
+.notizia1 {
+  background-image: url("../img/monitor.jpg");
+}
+.notizia2 {
+  background-image: url("../img/graph.jpg");
+}
+
+.article-title {
+  color: #ffffff;
+  font-size: 1.5em;
+  padding: 10px;
+}
