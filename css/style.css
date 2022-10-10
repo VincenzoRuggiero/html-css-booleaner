@@ -1,0 +1,7 @@
+.background-box {
+  background: #4ea0ff url("../img/pattern.png") repeat-x;
+  background-size: 50%;
+  height: 100px;
+
+  /* background: #4ea0ff url("./img/pattern.png") repeat-x; */
+}
